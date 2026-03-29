@@ -184,6 +184,7 @@ public:
         ++n_edges_;
         return true;
     }
+
     size_t nVertices() const { return adj_.size(); }
     size_t nEdges()    const { return n_edges_; }
 
